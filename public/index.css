@@ -1,16 +1,10 @@
-html {
-    box-sizing: border-box;
-    overflow: -moz-scrollbars-vertical;
-    overflow-y: scroll;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 body {
-    margin: 0;
-    background: #fafafa;
-}
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  main {
+    flex: 1 0 0;
+    overflow: hidden;
+  }
