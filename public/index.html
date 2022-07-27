@@ -15,7 +15,8 @@
 
     <title>Cloudflare API Scheme</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 
     <!-- Elements: Web Component -->
     <script src="https://unpkg.com/@stoplight/elements@7.5.20/web-components.min.js" integrity="sha512-F7SlwKWGm1/3ay+nbrY5FYkzSNWsPoHoZartrS7yYnhIdCtp4dOY4oTC05xo2Kq8SIIzLb5AMlOBGrOUb5pqKA==" crossorigin="anonymous"></script>
@@ -67,8 +68,9 @@
     <!-- Begin page content -->
     <main role="main">
       <elements-api
-        apiDescriptionUrl="https://serverless.cyberjake.xyz/cors/?api_url=api.cloudflare.com/schemas.json&allowed_origin=https://cf-api.cyberjake.xyz"
-        router="hash"
+        id="docs"
+        apiDescriptionUrl=""
+        router="history"
       />
     </main>
 
